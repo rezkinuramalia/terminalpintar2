@@ -19,23 +19,23 @@ class BeritaController extends Controller
         $dataPalsu = [
             [
                 'id' => 1,
-                'judul' => 'Workshop Coding (Data Palsu)',
+                'judul' => 'Workshop Coding untuk Anak',
                 'tanggal_kegiatan' => '2025-11-10',
-                'deskripsi_singkat' => 'Anak-anak antusias belajar dasar...',
+                'deskripsi_singkat' => 'Anak-anak belajar dasar-dasar programming dengan cara yang menyenangkan',
                 'gambar_url' => 'https://via.placeholder.com/400x200?text=Kegiatan+1'
             ],
             [
                 'id' => 2,
-                'judul' => 'Kelas Bahasa (Data Palsu)',
+                'judul' => 'Kelas Bahasa Interaktif',
                 'tanggal_kegiatan' => '2025-11-09',
-                'deskripsi_singkat' => 'Metode storytelling dan game...',
+                'deskripsi_singkat' => 'Sesi pembelajaran bahasa inggris dengan metode storytelling dan games',
                 'gambar_url' => 'https://via.placeholder.com/400x200?text=Kegiatan+2'
             ],
             [
                 'id' => 3,
-                'judul' => 'Perpustakaan Mini (Data Palsu)',
+                'judul' => 'Perpustakaan Mini Kini Dibuka',
                 'tanggal_kegiatan' => '2025-11-08',
-                'deskripsi_singkat' => 'Menyediakan 200+ buku bacaan...',
+                'deskripsi_singkat' => 'Terminal Pintar kini memiliki perpustakaan mini dengan 200+ buku untuk anak-anak',
                 'gambar_url' => 'https://via.placeholder.com/400x200?text=Kegiatan+3'
             ],
         ];

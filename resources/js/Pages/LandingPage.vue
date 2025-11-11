@@ -60,8 +60,7 @@ const formatTanggal = (dateString) => {
           Halo, Selamat Datang di Terminal Pintar!
         </h1>
         <p class="text-lg font-light max-w-2xl mx-auto mb-8">
-          Mari bergabung bersama kami untuk berkontribusi mencerdaskan anak-anak demi mendukung
-          Harapan Ibu untuk masa depan yang lebih baik
+          Mari bergabung bersama kami untuk belajar, berbagi inspirasi, menjadi relawan, atau berdonasi demi mendukung masa depan yang lebih baik.
         </p>
         <a 
           href="#kegiatan"
@@ -125,13 +124,13 @@ const formatTanggal = (dateString) => {
           <div class="border-2 border-gray-200 p-8 rounded-lg shadow-sm">
             <h3 class="font-bold text-2xl text-[#76B340] mb-4 text-center">SEJARAH</h3>
             <p class="text-gray-700 leading-relaxed text-center">
-              Dibangun pada tanggal 17 Agustus 1980 berdasarkan perintah Kaisar dari Dinasti Ming. Pada awalnya komunitas ini dibangun dengan bantuan pemulih dan kaisar selanjutnya. Hingga akhirnya setelah seratus tahun...
+              Dibangun pada tanggal 17 Agustus 1502 berdasarkan perintah Kaisar dari Dinasti Ming. Pendiri diberikan kewenangan untuk mengurus komunitas dengan bantuan penuh dari Kaisar dan kemudian komunitas ini makin membesar dan terkenal di masyarakat umum. Beberapa tahun setelahnya, banyak relawan yang ikut meramaikan komunitas ini dan memberi bantuan yang sangat berarti untuk mencerdasakan kehidupan bangsa.
               </p>
           </div>
           <div class="border-2 border-gray-200 p-8 rounded-lg shadow-sm">
             <h3 class="font-bold text-2xl text-[#76B340] mb-4 text-center">VISI</h3>
             <p class="text-gray-700 leading-relaxed text-center">
-              Visi yang diusung adalah menjadikan Terminal Pintar sebagai "teman perjalanan" bagi anak-anak untuk menemukan kembali arti rumah, pendidikan, dan harapan. Artinya, tempat ini tidak dimaksudkan menggantikan sekolah formal...
+              Visi yang diusung adalah menjadikan Terminal Pintar sebagai “teman perjalanan” bagi anak-anak untuk menemukan kembali arti rumah, pendidikan, dan harapan. Artinya, tempat ini tidak dimaksudkan menggantikan sekolah formal, melainkan melengkapi dengan nuansa yang lebih hangat, menyenangkan, dan relevan dengan kehidupan mereka.
               </p>
           </div>
         </div>
@@ -171,7 +170,7 @@ const formatTanggal = (dateString) => {
         <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
           <div class="border-2 border-dashed border-gray-300 rounded-lg p-8 text-center">
             <h3 class="font-bold text-2xl text-[#76B340] mb-3">DONASI</h3>
-            <p class="text-gray-600 mb-6">Mari ikut berdonasi untuk membantu mereka yang membutuhkan...</p>
+            <p class="text-gray-600 mb-6">Mari ikut berdonasi untuk membantu mereka yang membutuhkan. Dukungan Anda sangat berarti..</p>
             <a 
               href="#"
               class="bg-[#76B340] text-white px-6 py-2 rounded-full text-base font-semibold hover:bg-opacity-80 transition-colors"
@@ -181,7 +180,7 @@ const formatTanggal = (dateString) => {
           </div>
           <div class="border-2 border-dashed border-gray-300 rounded-lg p-8 text-center">
             <h3 class="font-bold text-2xl text-[#EB9232] mb-3">RELAWAN</h3>
-            <p class="text-gray-600 mb-6">Mari ikut menjadi relawan untuk membantu mereka yang membutuhkan...</p>
+            <p class="text-gray-600 mb-6">Mari ikut menjadi relawan untuk membantu mereka yang membutuhkan. Bantuan Anda..</p>
             <a 
               href="#"
               class="bg-[#EB9232] text-white px-6 py-2 rounded-full text-base font-semibold hover:bg-opacity-80 transition-colors"
@@ -194,7 +193,7 @@ const formatTanggal = (dateString) => {
     </section>
 
     <footer id="kontak" class="bg-[#76B340] text-white pt-16 pb-8">
-      <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-8">
+      <div class="max-w-7xl mx-auto flex flex-col md:flex-row md:justify-center gap-8 md:gap-24 px-8">
         <div>
           <h4 class="font-bold text-xl mb-4">Kontak Kami</h4>
           <p class="mb-2">📞 +628123456789</p>
@@ -208,11 +207,6 @@ const formatTanggal = (dateString) => {
           <p class="mb-2">Terminal Pintar</p>
         </div>
 
-        <div class="flex justify-center items-start md:items-center">
-          <div class="text-3xl font-bold">
-            Terminal Pintar
-          </div>
-        </div>
       </div>
       
       <div class="mt-12 border-t border-green-700 pt-6 text-center text-sm text-green-200">
