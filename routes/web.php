@@ -16,8 +16,26 @@ Route::get('/', function () {
     ]);
 });
 
+// Tambahkan rute ini untuk halaman daftar berita
+Route::get('/berita', function () {
+    return Inertia::render('BeritaList');
+})->name('berita.index'); // Beri nama untuk kemudahan
+
+// --- RUTE BARU 1 ---
+// Rute untuk Halaman Detail Berita (slug dinamis)
+Route::get('/berita/{slug}', function () {
+    return Inertia::render('BeritaDetail');
+})->name('berita.show');
+
 // RUTE API UNTUK LANDING PAGE KITA
 Route::get('/api/kegiatan-terbaru', [BeritaController::class, 'getKegiatanTerbaru']);
+
+// RUTE API BARU UNTUK LIST BERITA
+Route::get('/api/semua-berita', [BeritaController::class, 'getAllBerita']);
+
+// --- RUTE API BARU 2 ---
+// Rute untuk mengambil data detail berita
+Route::get('/api/berita/{slug}', [BeritaController::class, 'getBeritaDetail']);
 
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
