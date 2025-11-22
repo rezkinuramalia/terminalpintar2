@@ -375,7 +375,7 @@ const formatTanggal = (dateString) => {
             </div>
             <h3 class="font-bold text-2xl text-gray-800 group-hover:text-[#76B340] mb-4 text-center transition-colors">SEJARAH</h3>
             <p class="text-gray-600 leading-relaxed text-center text-sm">
-              Dibangun pada tanggal 17 Agustus 1502 berdasarkan perintah Kaisar dari Dinasti Ming. Pendiri diberikan kewenangan untuk mengurus komunitas dengan bantuan penuh dari Kaisar dan kemudian komunitas ini makin membesar dan terkenal di masyarakat umum.
+              Terminal Pintar bermula dari inisiatif mandiri para relawan yang peduli terhadap kondisi anak-anak di lingkungan perkotaan yang rentan. Komunitas ini didirikan untuk menjawab kebutuhan akan ruang aman bagi anak-anak yang kurang mendapatkan perhatian dan fasilitas belajar, tumbuh menjadi wadah positif untuk membina karakter dan kreativitas mereka
             </p>
           </div>
 
@@ -387,7 +387,7 @@ const formatTanggal = (dateString) => {
             </div>
             <h3 class="font-bold text-2xl text-gray-800 group-hover:text-[#EB9232] mb-4 text-center transition-colors">VISI</h3>
             <p class="text-gray-600 leading-relaxed text-center text-sm">
-              Visi yang diusung adalah menjadikan Terminal Pintar sebagai “teman perjalanan” bagi anak-anak untuk menemukan kembali arti rumah, pendidikan, dan harapan. Melengkapi dengan nuansa yang lebih hangat dan menyenangkan.
+              Menjadikan Terminal Pintar sebagai “teman perjalanan” bagi anak-anak untuk menemukan kembali arti rumah, pendidikan, dan harapan.
             </p>
           </div>
         </div>
