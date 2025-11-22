@@ -13,7 +13,7 @@ class BeritaController extends Controller
             'id' => 1,
             'judul' => 'Perpustakaan Mini Kini Dibuka',
             'slug' => 'perpustakaan-mini-kini-dibuka',
-            'tanggal_publikasi' => '2025-12-31',
+            'tanggal_publikasi' => '2024-12-31',
             'gambar_url' => '/dokumentasi.jpg',
             'gambar_header' => ['/dokumentasi.jpg', '/dokumentasi2.jpg'],
             'subtitle' => 'Subtitle untuk Perpustakaan...',
@@ -23,12 +23,12 @@ class BeritaController extends Controller
             'id' => 2,
             'judul' => 'Workshop Coding untuk Anak',
             'slug' => 'workshop-coding-untuk-anak',
-            'tanggal_publikasi' => '2025-12-15', // Sesuai mockup
+            'tanggal_publikasi' => '2024-12-15', // Sesuai mockup
             'gambar_url' => '/hero.jpg', // Path gambar lokal
             'gambar_header' => ['/hero.jpg', '/dokumentasi2.jpg'],
             'subtitle' => 'Mengenal Dunia Digital Sejak Dini, Anak-Anak Antusias Ikuti Workshop Coding Perdana',
             // INI ADALAH STRING YANG SUDAH DIPERBAIKI (PAKAI TANDA SAMBUNG '.')
-            'konten' => '<p><strong>Terminal Pintar</strong> - Di tengah pesatnya perkembangan teknologi, puluhan anak-anak usia sekolah dasar menunjukkan antusiasme luar biasa dalam acara "Workshop Coding untuk Anak" yang diselenggarakan pada hari Sabtu, 14 Desember 2025, di Aula Serbaguna Inovasi Mandiri. Acara ini bertujuan untuk memperkenalkan dasar-dasar logika pemrograman dan computational thinking kepada generasi muda dengan cara yang menyenangkan dan interaktif.</p>' .
+            'konten' => '<p><strong>Terminal Pintar</strong> - Di tengah pesatnya perkembangan teknologi, puluhan anak-anak usia sekolah dasar menunjukkan antusiasme luar biasa dalam acara "Workshop Coding untuk Anak" yang diselenggarakan pada hari Sabtu, 14 Desember 2024, di Aula Serbaguna Inovasi Mandiri. Acara ini bertujuan untuk memperkenalkan dasar-dasar logika pemrograman dan computational thinking kepada generasi muda dengan cara yang menyenangkan dan interaktif.</p>' .
                         '<p>Sejak pagi, para peserta yang didampingi orang tua sudah memadati area registrasi. Mereka datang dengan rasa penasaran tinggi untuk belajar bagaimana cara membuat game sederhana, animasi, dan cerita digital interaktif. Workshop ini menggunakan platform pemrograman visual berbasis blok, yang memungkinkan anak-anak menyusun perintah layaknya bermain puzzle tanpa perlu menulis kode yang rumit. "Tujuan utama kami adalah untuk menanamkan pemahaman bahwa mereka tidak hanya bisa menjadi pengguna teknologi, tetapi juga pencipta," ujar Budi Santoso, ketua panitia penyelenggara. "Kami ingin memantik rasa ingin tahu mereka dan menunjukkan bahwa coding itu seru, kreatif, dan bisa menjadi alat untuk mewujudkan imajinasi mereka."</p>' .
                         '<p>Suasana workshop berlangsung meriah dan penuh energi. Dipandu oleh para mentor yang berpengalaman, anak-anak diajak untuk membuat proyek pertama mereka. Tawa dan sorak gembira terdengar setiap kali mereka berhasil membuat karakter di layar bergerak atau mengeluarkan suara sesuai perintah yang mereka susun. Salah satu peserta, Aira (9), berhasil membuat animasi sederhana tentang seekor kucing yang mengejar bola.</p>' .
                         '<p>"Awalnya aku kira susah, ternyata seru banget! Aku jadi bisa bikin kartun sendiri," katanya sambil tersenyum bangga.</p>' .
@@ -38,7 +38,7 @@ class BeritaController extends Controller
             'id' => 3,
             'judul' => 'Kelas Bahasa Interaktif',
             'slug' => 'kelas-bahasa-interaktif',
-            'tanggal_publikasi' => '2025-12-12',
+            'tanggal_publikasi' => '2024-12-12',
             'gambar_url' => '/dokumentasi2.jpg',
             'gambar_header' => ['/dokumentasi2.jpg', '/hero.jpg'],
             'subtitle' => 'Subtitle untuk Kelas Bahasa...',
@@ -48,7 +48,7 @@ class BeritaController extends Controller
             'id' => 4,
             'judul' => 'Kelas Green Environment',
             'slug' => 'kelas-green-environment',
-            'tanggal_publikasi' => '2025-12-08',
+            'tanggal_publikasi' => '2024-12-08',
             'gambar_url' => '/dokumentasi3.jpg',
             'gambar_header' => ['/dokumentasi3.jpg', '/hero.jpg'],
             'subtitle' => 'Subtitle untuk Green Environment...',
@@ -58,7 +58,7 @@ class BeritaController extends Controller
             'id' => 5,
             'judul' => 'Kelas Mental Health & Education',
             'slug' => 'kelas-mental-health',
-            'tanggal_publikasi' => '2025-12-07',
+            'tanggal_publikasi' => '2024-12-07',
             'gambar_url' => '/dokumentasi4.jpg',
             'gambar_header' => ['/dokumentasi4.jpg', '/hero.jpg'],
             'subtitle' => 'Subtitle untuk Mental Health...',
@@ -68,7 +68,7 @@ class BeritaController extends Controller
             'id' => 6,
             'judul' => 'Kelas Science & Technology',
             'slug' => 'kelas-science-technology',
-            'tanggal_publikasi' => '2025-11-20',
+            'tanggal_publikasi' => '2024-11-20',
             'gambar_url' => '/dokumentasi5.jpg',
             'gambar_header' => ['/dokumentasi5.jpg', '/hero.jpg'],
             'subtitle' => 'Subtitle untuk Science...',
@@ -78,7 +78,7 @@ class BeritaController extends Controller
             'id' => 7,
             'judul' => 'Kelas Public Speaking',
             'slug' => 'kelas-public-speaking',
-            'tanggal_publikasi' => '2025-10-25',
+            'tanggal_publikasi' => '2024-10-25',
             'gambar_url' => '/dokumentasi6.jpg',
             'gambar_header' => ['/dokumentasi6.jpg', '/hero.jpg'],
             'subtitle' => 'Subtitle untuk Public Speaking...',
@@ -88,7 +88,7 @@ class BeritaController extends Controller
             'id' => 8,
             'judul' => 'Kunjungan ke Kebun Binatang',
             'slug' => 'kunjungan-kebun-binatang',
-            'tanggal_publikasi' => '2025-10-10',
+            'tanggal_publikasi' => '2024-10-10',
             'gambar_url' => '/dokumentasi8.jpg',
             'gambar_header' => ['/dokumentasi8.jpg', '/hero.jpg'],
             'subtitle' => 'Subtitle untuk Kunjungan...',
@@ -98,7 +98,7 @@ class BeritaController extends Controller
             'id' => 9,
             'judul' => 'Pelatihan Pertanian Organik',
             'slug' => 'pelatihan-pertanian-organik',
-            'tanggal_publikasi' => '2025-09-05',
+            'tanggal_publikasi' => '2024-09-05',
             'gambar_url' => '/dokumentasi9.jpg',
             'gambar_header' => ['/dokumentasi9.jpg', '/hero.jpg'],
             'subtitle' => 'Subtitle untuk Pertanian...',
@@ -108,7 +108,7 @@ class BeritaController extends Controller
             'id' => 10,
             'judul' => 'Lomba Mewarnai Anak-Anak',
             'slug' => 'lomba-mewarnai-anak-anak',
-            'tanggal_publikasi' => '2025-08-17',
+            'tanggal_publikasi' => '2024-08-17',
             'gambar_url' => '/dokumentasi10.jpg',
             'gambar_header' => ['/dokumentasi10.jpg', '/hero.jpg'],
             'subtitle' => 'Subtitle untuk Lomba Mewarnai...',
